@@ -39,6 +39,7 @@ $(document).ready(function () {
   grid.on("move", function () {
     const newItems = [];
 
+    /* https://docs.muuri.dev/grid-methods.html#getitems */
     grid.getItems().forEach(function (gridItem) {
       const id = $(gridItem.getElement()).data(
         "id"
