@@ -50,5 +50,6 @@ $(document).ready(function () {
       newItems.push(item);
     });
     items = newItems;
+    console.log(items);
   });
 });
